@@ -9,7 +9,7 @@ Requirements
 - Linux
 - Mac OS X
 
-ttributes
+attributes
 ----------
 
 #### jq::default
