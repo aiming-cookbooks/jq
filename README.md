@@ -60,3 +60,7 @@ MIT
 
 (C) Aiming Inc.
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/aiming-cookbooks/jq/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
