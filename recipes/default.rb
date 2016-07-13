@@ -13,8 +13,7 @@ remote_file node['jq']['path'] do
   arch = node['kernel']['machine'] =~ /x86_64/ ? "64" : "32"
   os   = node['platform_family'] == 'mac_os_x' ? 'mac' : 'linux'
   version = node['jq']['version']
-  source "http://stedolan.github.io/jq/download/jq-#{version}/jq-#{os}#{arch}"
-
+  source "https://github.com/stedolan/jq/releases/download/jq-#{version}/jq-#{os}#{arch}"
   action :create_if_missing
   mode   0755
   owner  'root'
